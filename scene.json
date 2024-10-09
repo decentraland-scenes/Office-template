@@ -4,7 +4,7 @@
   "display": {
     "title": "Template scene - office",
     "description": "A large office surrounding by green, with an imposing entrance and conference rooms.",
-    "navmapThumbnail": "images/scene-thumbnail.png",
+    "navmapThumbnail": "",
     "favicon": "favicon_asset"
   },
   "owner": "",
@@ -439,5 +439,8 @@
     "ALLOW_TO_TRIGGER_AVATAR_EMOTE",
     "ALLOW_TO_MOVE_PLAYER_INSIDE_SCENE"
   ],
-  "featureToggles": {}
+  "featureToggles": {
+    "voiceChat": "enabled",
+    "portableExperiences": "enabled"
+  }
 }
