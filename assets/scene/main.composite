@@ -90,44 +90,44 @@
         "serializationType": "transform"
       },
       "data": {
-        "513": {
-          "json": {
-            "position": {
-              "x": 0,
-              "y": 0,
-              "z": 0
-            },
-            "scale": {
-              "x": 1,
-              "y": 1,
-              "z": 1
-            },
-            "rotation": {
-              "x": 0,
-              "y": 0,
-              "z": 0,
-              "w": 1
-            },
-            "parent": 514
-          }
-        },
-        "514": {
+        "515": {
           "json": {
             "position": {
               "x": 160,
               "y": 0,
               "z": 160
             },
+            "rotation": {
+              "x": 0,
+              "y": 0,
+              "z": 0,
+              "w": 1
+            },
             "scale": {
               "x": 1,
               "y": 1,
               "z": 1
+            },
+            "parent": 0
+          }
+        },
+        "516": {
+          "json": {
+            "position": {
+              "x": 160,
+              "y": 0,
+              "z": 160
             },
             "rotation": {
               "x": 0,
               "y": 0,
               "z": 0,
               "w": 1
+            },
+            "scale": {
+              "x": 1,
+              "y": 1,
+              "z": 1
             },
             "parent": 0
           }
@@ -143,14 +143,18 @@
         "protocolBuffer": "PBGltfContainer"
       },
       "data": {
-        "513": {
+        "515": {
           "json": {
-            "src": "assets/building/building.glb"
+            "src": "assets/landscape/landscape.glb",
+            "visibleMeshesCollisionMask": 1,
+            "invisibleMeshesCollisionMask": 2
           }
         },
-        "514": {
+        "516": {
           "json": {
-            "src": "assets/landscape/landscape.glb"
+            "src": "assets/building/building.glb",
+            "visibleMeshesCollisionMask": 1,
+            "invisibleMeshesCollisionMask": 2
           }
         }
       }
@@ -168,14 +172,14 @@
         "serializationType": "map"
       },
       "data": {
-        "513": {
-          "json": {
-            "value": "building.glb"
-          }
-        },
-        "514": {
+        "515": {
           "json": {
             "value": "landscape.glb"
+          }
+        },
+        "516": {
+          "json": {
+            "value": "building.glb"
           }
         }
       }
@@ -193,9 +197,9 @@
         "serializationType": "map"
       },
       "data": {
-        "513": {
+        "516": {
           "json": {
-            "gizmo": 0
+            "gizmo": 3
           }
         }
       }
@@ -3834,18 +3838,9 @@
                 "entity": 0,
                 "open": true,
                 "children": [
-                  513,
-                  514
+                  515,
+                  516
                 ]
-              },
-              {
-                "entity": 513,
-                "children": []
-              },
-              {
-                "entity": 514,
-                "open": true,
-                "children": []
               },
               {
                 "entity": 1,
@@ -3853,6 +3848,14 @@
               },
               {
                 "entity": 2,
+                "children": []
+              },
+              {
+                "entity": 515,
+                "children": []
+              },
+              {
+                "entity": 516,
                 "children": []
               }
             ]
@@ -4117,10 +4120,10 @@
         "serializationType": "map"
       },
       "data": {
-        "513": {
+        "515": {
           "json": {}
         },
-        "514": {
+        "516": {
           "json": {}
         }
       }
